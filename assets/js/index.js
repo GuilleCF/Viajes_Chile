@@ -16,3 +16,10 @@ $(document).ready(function(){
         }
     }); 
 });
+
+// Alert form button
+$(document).ready(function(){
+    $('#submit').on('click', function(event){
+        alert('Gracias por contactarnos.');
+    });
+});
